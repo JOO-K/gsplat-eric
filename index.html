@@ -8,8 +8,8 @@
 
         <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/p5@1.11.0/lib/p5.min.js"></script>
-      <script type="module" crossorigin src="/gsplat-eric/assets/main-CI5mtfAr.js"></script>
-      <link rel="stylesheet" crossorigin href="/gsplat-eric/assets/main-DiUnQkLt.css">
+      <script type="module" crossorigin src="/gsplat-eric/assets/main-4rqZsLke.js"></script>
+      <link rel="stylesheet" crossorigin href="/gsplat-eric/assets/main-BVsnEEjp.css">
     </head>
     <body>
 
@@ -20,7 +20,7 @@
                 <div class="facetopstart top"></div>
                 <div class="facestart left"></div>
                 <div class="facelongstart front marqueewrapper">
-                    <h1>Human Zoo</h1>
+                    <h1>Pale Red Zoo</h1>
                     <h2 class="marquee">e x p l o r e    t h e    z o o</h2>
                     <!-- <video autoplay muted src="https://dl.dropboxusercontent.com/scl/fi/ukhv3inj02ewg28x6tizp/20241118_2k.mp4?rlkey=1ijp0cpeeu9it60v56efpmgik&st=57axu12e"> -->
                 </div>
@@ -31,12 +31,12 @@
             <div class="cube" style="animation-duration: .8s;">
                 <div class="facelong top"></div>
                 <div class="face left">1</div>
-                <div class="facelong front">Harold Hutt</div>
+                <div class="facelong front">A Bleeding World</div>
     
     
                 <div class="bg-graphic">
-                    <h5>Kitchen Analysis</h5>
-                    <h6>Part 01: introduction</h6>
+                    <h5>Howling at a Concrete Moon</h5>
+                    <h6>Part 01: What is a zoo?</h6>
                     <img src="/gsplat-eric/assets/eye-CZ0zK6DI.gif">
                 </div>
             </div>
@@ -44,24 +44,23 @@
         </div>
     
     
-    
-        <a href="./room3.html" class="cubehover">
+        <!-- <div class="cubehover" id="moveCameraDiv2">
             <div class="cube" style="animation-duration: 1s;">
                 <div class="facelong top"></div>
                 <div class="face left">2</div>
-                <div class="facelong front">The Den</div>
+                <div class="facelong front">Neighbors</div>
     
     
                 <div class="bg-graphic">
-                    <h5>The Den</h5>
-                    <h6>Prototyping, Wireframing</h6>
+                    <h5>Titan of Industry</h5>
+                    <h6>Part 02: What is progress?</h6>
                     <img src="./images/b.jpg">
                 </div>
             </div>
-        </a>
+ </div>
     
     
-        <a href="./room4.html" class="cubehover">
+            <div class="cubehover" id="moveCameraDiv3">
             <div class="cube" style="animation-duration: 1.2s;">
                 <div class="facelong top"></div>
                 <div class="face left">3</div>
@@ -74,9 +73,9 @@
                     <img src="./images/c.jpg">
                 </div>
             </div>
-        </a>
+     </div>
     
-        <a href="" class="cubehover">
+            <div class="cubehover" id="moveCameraDiv4">
             <div class="cube" style="animation-duration: 1.4s;">
                 <div class="facelong top"></div>
                 <div class="face left">4</div>
@@ -89,9 +88,10 @@
                     <img src="./images/d.jpg">
                 </div>
             </div>
-        </a>
+            </div>
     
-        <a href="" class="cubehover">
+            <div class="cubehover" id="moveCameraDiv5">
+
             <div class="cube" style="animation-duration: 1.6s;">
                 <div class="facelong top"></div>
                 <div class="face left">5</div>
@@ -104,7 +104,8 @@
                     <img src="./images/e.jpg">
                 </div>
             </div>
-        </a>
+            </div>
+      -->
     
         
     
@@ -153,16 +154,14 @@
     </div>
     
     <div class="intro-text-container">
-        <h1>Piece together memory fragments, rewrite glitched plots, and outsmart corrupted scripts.
-            Use arrows to navigate, space to interact. Every story you fix brings you closer to the truth.</h1>
-        <h2>Kitchen Part 01: introduction</h2>
-        <div class="intro-button"><h3>Learn More</h3></div>
+        <h1>WASD to Move, Left click to Rotate, Right click to Pan</h2>
+        <!-- <div class="intro-button"><h3>Learn More</h3></div>
         <div class="intro-seal">output 1523.b comfyui ai prompt ai video ai gaussian</div>
-        <div class="intro-toggle"><div class=""></div></div>
+        <div class="intro-toggle"><div class=""></div></div> -->
     </div>
 
 
-    <div class="info-container">
+    <div class="info-container" style="display: none;">
         <h1>What is a kitchen?
         </h1>
         <img src="/gsplat-eric/assets/eye-CZ0zK6DI.gif">
@@ -185,8 +184,6 @@
                 <progress max="100" id="progress-indicator"></progress>
             </dialog>
         </div>
-
-        <div  class="camera-position-div">Click me to move the camera!</div>
 
         <canvas id="canvas"></canvas>
 
